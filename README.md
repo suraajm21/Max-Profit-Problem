@@ -9,9 +9,9 @@ The solution utilizes **Dynamic Programming** to explore all possible building c
 Mr. X owns a large strip of land in Mars Land. He wants to develop properties to maximize his earnings over a period of `n` time units.
 
 ### Constraints & Rules:
-* **Sequential Development:** Only one property can be developed at a time (no parallel building)[cite: 14].
-* [cite_start]**Operational Earnings:** Money is earned only for the time a building is operational (Total Time - Build Time)[cite: 12].
-* [cite_start]**Infinite Capacity:** Land area is infinite; the limiting factor is **Time**[cite: 5].
+* **Sequential Development:** Only one property can be developed at a time (no parallel building).
+* **Operational Earnings:** Money is earned only for the time a building is operational (Total Time - Build Time).
+* **Infinite Capacity:** Land area is infinite; the limiting factor is **Time**.
 
 ### Property Data
 | Establishment | Build Time (Units) | Earnings (per unit) |
@@ -19,7 +19,6 @@ Mr. X owns a large strip of land in Mars Land. He wants to develop properties to
 | **Theatre (T)** | 5 | $1500 |
 | **Pub (P)** | 4 | $1000 |
 | **Commercial Park (C)** | 10 | $2000 |
-[cite_start]*(Data Source: [cite: 9-11, 13])*
 
 ---
 
@@ -36,27 +35,6 @@ We treat this as a variation of the "Unbounded Knapsack Problem," but instead of
 
 ---
 
-## 💻 Installation & Usage
-
-### Prerequisites
-* Python 3.x
-
-### Running the Code
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/yourusername/mars-land-profit.git](https://github.com/yourusername/mars-land-profit.git)
-    ```
-2.  Navigate to the directory:
-    ```bash
-    cd mars-land-profit
-    ```
-3.  Run the script:
-    ```bash
-    python max_profit.py
-    ```
-
----
-
 ## 📊 Test Cases & Results
 [cite_start]The algorithm has been verified against the provided test cases[cite: 19].
 
@@ -67,10 +45,3 @@ We treat this as a variation of the "Unbounded Knapsack Problem," but instead of
 | **13** | $16500 | **$16500** | Build 2 Theatres. (T1 Op 8 units + T2 Op 3 units). |
 
 ---
-
-## 📂 File Structure
-```text
-.
-├── max_profit.py       # Main algorithm implementation
-├── README.md           # Project documentation
-└── Algorithm - Max Profit.pdf # Problem statement source
