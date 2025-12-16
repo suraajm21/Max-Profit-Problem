@@ -6,10 +6,10 @@ This project contains a Python solution for the "Max Profit Problem" (Interview 
 The solution utilizes **Dynamic Programming** to explore all possible building combinations and operational durations efficiently.
 
 ## 💡 The Problem
-[cite_start]Mr. X owns a large strip of land in Mars Land[cite: 4]. He wants to develop properties to maximize his earnings over a period of `n` time units.
+Mr. X owns a large strip of land in Mars Land. He wants to develop properties to maximize his earnings over a period of `n` time units.
 
 ### Constraints & Rules:
-* [cite_start]**Sequential Development:** Only one property can be developed at a time (no parallel building)[cite: 14].
+* **Sequential Development:** Only one property can be developed at a time (no parallel building)[cite: 14].
 * [cite_start]**Operational Earnings:** Money is earned only for the time a building is operational (Total Time - Build Time)[cite: 12].
 * [cite_start]**Infinite Capacity:** Land area is infinite; the limiting factor is **Time**[cite: 5].
 
