@@ -36,7 +36,7 @@ We treat this as a variation of the "Unbounded Knapsack Problem," but instead of
 ---
 
 ## 📊 Test Cases & Results
-[cite_start]The algorithm has been verified against the provided test cases[cite: 19].
+The algorithm has been verified against the provided test cases.
 
 | Input (Time Units) | Expected Output | Calculated Output | Logic |
 | :--- | :--- | :--- | :--- |
